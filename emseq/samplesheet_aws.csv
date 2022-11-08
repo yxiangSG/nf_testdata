@@ -1,0 +1,2 @@
+sample,fastq_1,fastq_2
+em_seq, s3://genomics-workflows-nf/methylseq_app/test_data/b3_206_R1.fastq.gz,s3://genomics-workflows-nf/methylseq_app/test_data/b3_206_R2.fastq.gz
