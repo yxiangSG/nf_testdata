@@ -1,4 +1,4 @@
 sample,fastq_1,fastq_2
 SAMPLE1_PE,https://raw.githubusercontent.com/yxiangSG/nf_testdata/main/emseq/test1_R1.fq.gz,https://raw.githubusercontent.com/yxiangSG/nf_testdata/main/emseq/test1_R2.fq.gz
-SAMPLE1_PE,https://raw.githubusercontent.com/yxiangSG/nf_testdata/main/emseq/test2_R1.fq.gz,https://raw.githubusercontent.com/yxiangSG/nf_testdata/main/emseq/test2_R2.fq.gz
+SAMPLE1_PE,https://raw.githubusercontent.com/yxiangSG/nf_testdata/main/emseq/test1_R1.fq.gz,https://raw.githubusercontent.com/yxiangSG/nf_testdata/main/emseq/test1_R2.fq.gz
 
