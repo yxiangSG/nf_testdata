@@ -1,7 +1,7 @@
 # nf_testdata
 
 ```mermaid
- %%{init: { 'theme':'dark', 'sequence': {'useMaxWidth':false} } }%%
+ %%{init: { width: 1000}  }%%
 graph TD;
 Input-->TrimGlore;
 TrimGlore-->BWA-Meth;
