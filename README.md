@@ -1,10 +1,9 @@
 # nf_testdata
 
 ```mermaid
- %%{init: {  'logLevel': 'debug', 'theme': 'dark'}  }%%
+ %%{init: { 'startOnLoad':true }%%
 graph TD;
-%%{config: { 'fontFamily': 'Menlo', 'fontSize': 30, 'fontWeight': 400, 'width' : 1600} }%%
-
+%%{config:{ 'flowchart' :{ 'diagramPadding': 20 } }%%
 Input-->TrimGlore;
 TrimGlore-->BWA-Meth_align;
 TrimGlore-->MultiQC;
