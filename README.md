@@ -3,11 +3,11 @@
 ```mermaid
 graph TD;
 Input-->TrimGlore;
-TrimGlore-->BWA-Meth_align;
+TrimGlore-->BWA-Meth;
 TrimGlore-->MultiQC;
-BWA-Meth_align-->MultiQC;
-BWA-Meth_align-->PICARD-deduplication;
-PICARD-deduplication-->MultiQC;
-PICARD-deduplication-->MethylDackel;
+BWA-Meth-->MultiQC;
+BWA-Meth-->PICARD;
+PICARD-->MultiQC;
+PICARD-->MethylDackel;
 MethylDackel-->MultiQC;
 ```
