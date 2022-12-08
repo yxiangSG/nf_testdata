@@ -11,3 +11,16 @@ graph TD;
   BWA-Meth_align-->MultiQC;
   MethylDackel-->MultiQC;
 ```
+
+
+```mermaid
+graph TD;
+  Input-->TrimGlore;
+  TrimGlore--> STAR;
+  STAR-->Salmon;
+  STAR-->PICARD;
+  PICARD-->MultiQC;
+  STAR-->MultiQC;
+  STAR-->RSeQC;
+  RSeQC-->MultiQC;
+```
