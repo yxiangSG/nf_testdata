@@ -16,11 +16,13 @@ graph TD;
 ```mermaid
 graph TD;
   Input-->TrimGlore;
-  TrimGlore--> STAR;
-  STAR-->Salmon;
-  STAR-->PICARD;
+  TrimGlore--> STAR+Samtools;
+  STAR+Samtools-->Salmon;
+  Salmon-->Deseq2;
+  Deseq2-->MultiQC;
+  STAR+Samtools-->PICARD;
   PICARD-->MultiQC;
-  STAR-->MultiQC;
-  STAR-->RSeQC;
+  STAR+Samtools-->MultiQC;
+  STAR+Samtools-->RSeQC;
   RSeQC-->MultiQC;
 ```
